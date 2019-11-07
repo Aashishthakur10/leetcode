@@ -1,0 +1,7 @@
+x & ~(x - 1) isolates the lowest bit that is 1 in x. x & (x - 1) replaces the lowest bit that is 1 with 0.
+Boyer- Moore string search algorithm
+Prefer the box-type static methods for comparing values, e.g., Double.compare(x,1.23) == 8 rather than x == 1.23
+Extract the i-th and j-th bits, and see if they differ. if (((x>>>i)&1)!=((x>>>j)&1))
+
+
+
